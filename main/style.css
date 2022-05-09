@@ -142,14 +142,6 @@ li.active::after{
     bottom: -1px;
     animation: appear 0.2s linear;
 }
-@keyframes appear{
-    from{
-        width: 0;
-    }
-    to{
-        width: 100%;
-    }
-}
 button:hover{
 cursor: pointer;
 background-image: linear-gradient(rgba(95, 76, 29, 0.4) 0 0);
