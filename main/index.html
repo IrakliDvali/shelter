@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    
         <div class="start-screen" id="main-id">
           <header>
             <div class="logo-div">
@@ -18,12 +18,17 @@
               </a>
             </div>
             <nav>
-              <ul class="nav-menu">
+              <ul class="navmenu">
                 <li class="active">About the shelter</li>
                 <li><a href="../pets/index.html">Our pets</a></li>
                 <li><a href="#help-the-shelter">Help the shelter</a></li>
                 <li><a href="#contacts"> Contacts</a></li>
               </ul>
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
             </nav>
           </header>
           <div class="start-screen-content">
@@ -78,12 +83,12 @@
                   <h3 class="pets-name">Katrine</h3>
                   <button class="pets-btn">Learn more</button>
                 </div>
-                <div class="three-pet">
+                <div class="three-pet" id="pet2">
                   <img src="../images/pets-jennifer.png" alt="dog-jennifer" class="pet-img"/>
                   <h3 class="pets-name">Jennifer</h3>
                   <button class="pets-btn">Learn more</button>
                 </div>
-                <div class="three-pet">
+                <div class="three-pet" id="pet3">
                   <img src="../images/pets-woody.png" alt="happy-doggo" class="pet-img"/>
                   <h3 class="pets-name">Woody</h3>
                   <button class="pets-btn">Learn more</button>
@@ -144,7 +149,7 @@
             <div class="donation-content">
               <img src="../images/donation-dog.png" alt="donation-dog" class="donation-dog"/>
               <div class="donation2-content">
-                <h2 class="donation-heading">You can also make a donation</h2>
+                <h2 class="donation-heading">You can also <br> make a donation</h2>
                 <h3 class="donation-subheading">Name of the bank / Type of bank account</h3>
                 <div class="credit-card">
                   <img src="../icons/credit-card.svg" alt="credit-card-icon" class="credit-card-icon"/>
@@ -194,6 +199,6 @@
             <img src="../images/footer-puppy.png" alt="footer-puppy" class="footer-puppy"/>
           </div>
         </footer>
-      </div>
+        <script src="script.js"></script>
 </body>
 </html>
